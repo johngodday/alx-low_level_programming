@@ -1,17 +1,16 @@
 #include "main.h"
 /**
- * print_alphabet - prints the alphabet in lowercase.
+ * print_alphabet - prints lower case alphabet
  *
- * Description: Uses the holberton header file, that brings in the _putchar
- *  funtction.
- * Return: void.
- */
+ **/
+void print_alphabet(void)
+{
 
-void print_alphabet(){
-        char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
-        int i;
-        for(i= 0; i<=26; i++){
-            _putchar(alpha[i]);
-        }
-        _putchar("\n");
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }
