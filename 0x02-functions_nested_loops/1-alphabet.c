@@ -13,7 +13,7 @@ int main(void)
     return 0;
 }
 
-print_alphabet(){
+void print_alphabet(){
         char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
         int i;
         for(i= 0; i<=26; i++){
