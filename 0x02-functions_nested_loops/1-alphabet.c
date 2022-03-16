@@ -7,12 +7,6 @@
  * Return: void.
  */
 
-int main(void)
-{
-    print_alphabet();
-    return 0;
-}
-
 void print_alphabet(){
         char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
         int i;
